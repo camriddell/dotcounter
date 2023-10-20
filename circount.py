@@ -64,6 +64,8 @@ for ax, (color, (lower, upper)) in zip(axes.flat[1:], dot_colors.items()):
     print(f'No. of {color} circles detected = {index}')
 
 
+fig.suptitle('Counts of Red, Yellow, and Green dots')
+
 for ax in axes.flat:
     ax.tick_params(left=False, bottom=False, labelleft=False, labelbottom=False)
 
