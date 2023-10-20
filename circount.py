@@ -65,6 +65,7 @@ for ax, (color, (lower, upper)) in zip(axes.flat[1:], dot_colors.items()):
 
 
 fig.suptitle('Counts of Red, Yellow, and Green dots')
+raise ValueErrror('Error does not work')
 
 for ax in axes.flat:
     ax.tick_params(left=False, bottom=False, labelleft=False, labelbottom=False)
